@@ -1,0 +1,360 @@
+/* Typos */
+h1, h2, h3, h4, h5,
+.card-pricing .title-pricing,
+footer p,
+.fake-link,
+header.burger .button-menu,
+.menu-navigation ul li a,
+.button {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+h1 {
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 8vw;
+    line-height: 7vw;
+
+    &.normal {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+
+    &.big {
+        font-size: 8vw;
+        line-height: 7vw;
+    }
+
+    &.small {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+}
+
+h3 {
+    font-size: 5vw;
+    line-height: 5vw;
+}
+
+h4 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Container */
+.container {
+    max-width: 1400px;
+    width: 90%;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 15px 40px;
+    background: #000;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 2px solid #000;
+    transition: 0.3s;
+
+    &.primary {
+        background: #000;
+    }
+
+    &.secondary {
+        background: #000;
+    }
+
+    &:hover {
+        background: #FFF;
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+.white {
+    .button {
+        background: #FFF;
+        color: #000;
+        border: 0;
+    }
+}
+
+/* Specific */
+.strate-hero h4 {
+    font-size: 3vw;
+}
+
+/* Hero */
+header.burger .button-menu .text {
+    color: #FFF;
+    position: relative;
+    top: 7px;
+    font-size: 25px;
+    padding: 0 15px;
+}
+
+header.burger .button-menu .barre {
+    background: #FFF;
+}
+
+.menu-navigation ul li ul li a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+header.burger.is-scrolled {
+    background: #FFF;
+    border-bottom: 2px solid #000;
+
+    .barre {
+        background: #000;
+
+        &:before,
+        &:after {
+            background: #000;
+        }
+    }
+
+    .button-menu {
+        padding: 15px 30px;
+
+        .text {
+            color: #000;
+        }
+    }
+
+    .logo-scroll {
+        width: 45px;
+        margin-top: 13px;
+    }
+
+    .social {
+        padding: 30px 30px 27px;
+        margin-bottom: 0;
+    }
+}
+
+header.burger.is-scrolled .social svg path{
+    fill: #000 !important;
+}
+
+.contact-form label{
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.contact-form input[type='tel'],
+.contact-form textarea{
+    width: 100%;
+    appearance: none;
+    border: 1px solid #000;
+    resize: none;
+    background: #FFF;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.container-text-only.center p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form{
+    .return-message{
+        text-align: center;
+        padding: 120px 0;
+        font-size: 18px;
+    }
+}
+
+#form p{
+    font-size: 22px;
+}
+.container-text-only.right p{
+    margin-left: auto;
+}
+
+.container-text-only p{
+    display: block;
+}
+.container-text-only p a{
+    color: inherit;
+    text-decoration: underline;
+}
+.contact-form{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+footer li a{
+    color: #FFF;
+    font-size: 14px;
+}
+
+footer .copyright a{
+    text-decoration: underline;
+    font-size: 14px;
+    color: #FFF;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 18px;
+}
+
+
+.page-id-360 .accordeon-item-title h3{
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.cky-btn-revisit-wrapper{
+    background: rgb(177,101,253) !important;
+    background: linear-gradient(50deg, rgba(177,101,253,1) 0%, rgba(254,0,107,1) 100%) !important;
+}
+
+/* Footer */
+footer {
+    padding: 40px 0;
+    background: #000;
+    border-top: 2px solid #000;
+    .logo-footer{
+        max-width: 100%;
+        width: 60px;
+    }
+
+
+    .copyright {
+        color: #FFF;
+        padding-top: 60px;
+        font-size: 12px;
+    }
+
+    .logo-footer {
+        max-width: 60px;
+        width: 60px;
+    }
+
+    .menu li {
+        margin-bottom: 5px;
+
+        a {
+            color: #fff;
+            font-size: 14px;
+        }
+    }
+
+    .social {
+        padding-top: 0;
+
+        svg {
+            path {
+                fill: #fff !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 1735px) {
+    h2{
+        &.big{
+            font-size: 130px;
+            line-height: 120px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .button {
+        padding: 8px 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 50px;
+
+        &.big {
+            font-size: 70px;
+            line-height: 60px;
+        }
+
+        &.normal {
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
+
+    h4 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    header.burger.is-scrolled .button-menu {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    header.burger.is-scrolled .logo-scroll {
+        margin-top: 0;
+    }
+
+    .strate-hero .strate-hero_inner h1.big {
+        font-size: 100px;
+        line-height: 80px;
+    }
+
+    .strate-hero h4 {
+        font-size: 20px;
+    }
+
+    .strate {
+        padding: 15px 0;
+    }
+
+    footer {
+        text-align: center;
+
+        .menu {
+            margin-bottom: 30px;
+        }
+
+        .logo-footer {
+            margin-bottom: 30px;
+        }
+
+        .social {
+            margin-top: 30px;
+
+            &.text-right {
+                text-align: center !important;
+            }
+        }
+    }
+
+    .strate-hero.full{
+        height: 85vh;
+    }
+}

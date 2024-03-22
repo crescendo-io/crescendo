@@ -1,3 +1,10 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style type="text/css">
+    @font-face {
+        font-family: 'mabry_proregular';
+        src: url('<?= get_stylesheet_directory_uri();?>/fonts/mabrypro-regular-webfont.woff2') format('woff2'),
+        url('<?= get_stylesheet_directory_uri();?>/fonts/mabrypro-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+</style>

@@ -123,9 +123,11 @@ h2 {
     margin-top: 30px;
 }
 
-.page-template-page-landing footer{
+.page-template-front-page footer{
     display: none;
 }
+
+
 h3 {
     font-size: 25px;
     line-height: 28px;

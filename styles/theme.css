@@ -658,6 +658,19 @@ footer .social svg  path{
     fill: #000 !important;
 }
 
+.cky-btn-accept{
+    background: #292B33 !important;
+    border-color: #292B33 !important;
+}
+
+.cky-btn-customize,
+.cky-notice-btn-wrapper .cky-btn-reject,
+.cky-prefrence-btn-wrapper .cky-btn-preferences,
+.cky-prefrence-btn-wrapper .cky-btn-reject{
+    border-color: #292B33 !important;
+    color: #292B33 !important;
+}
+
 @media (min-width: 1735px) {
     h2{
         &.big{
@@ -721,7 +734,7 @@ footer .social svg  path{
     }
 
     .strate-hero.middle{
-        height: 60vh;
+        height: 70vh;
     }
 
     .swiper .card-slide img{
